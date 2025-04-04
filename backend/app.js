@@ -1,8 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const userRoutes = require('./routes/userRoutes');
-const plantationRoutes = require('./routes/plantationRoutes');
+const movieRoutes = require('./routes/movieRoutes');
+const songRoutes = require('./routes/songRoutes');
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -22,8 +23,9 @@ mongoose.connect('mongodb://localhost:27017/mydatabasenew', {
 });
 
 // Usando rotas
-app.use('/api/users', userRoutes);
-app.use('/api/plantations', plantationRoutes);
+app.use('/api/movies', movieRoutes);
+app.use('/api/songs', songRoutes);
+
 
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
