@@ -1,4 +1,3 @@
-rea de Trabalho\crud\frontend\songs.html -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,44 +7,52 @@ rea de Trabalho\crud\frontend\songs.html -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="movies.html">Filmes</a>
-        <a href="songs.html">Músicas</a>
-    </nav>
-    <h1>Músicas Cadastradas</h1>
-    <button id="addSongBtn">Adicionar Música</button>
-    <table id="songsTable">
-        <thead>
-            <tr>
-                <th>Título</th>
-                <th>Artista</th>
-                <th>Álbum</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- As músicas serão listadas aqui via JS -->
-        </tbody>
-    </table>
-    <!-- Modal para adicionar/editar música -->
-    <div id="songModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2 id="modalTitleSong">Adicionar Música</h2>
-            <form id="songForm">
-                <label for="title">Título:</label>
-                <input type="text" id="titleSong" name="title" required>
-
-                <label for="artist">Artista:</label>
-                <input type="text" id="artist" name="artist" required>
-
-                <label for="album">Álbum:</label>
-                <input type="text" id="album" name="album" required>
-
-                <button type="submit" id="saveSongBtn">Salvar</button>
-            </form>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="movies.html">Filmes</a></li>
+                <li><a href="songs.html">Músicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Músicas Cadastradas</h1>
+            <button id="addSongBtn">Adicionar Música</button>
+            <table id="songsTable">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Artista</th>
+                        <th>Álbum</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- As músicas serão listadas aqui via JS -->
+                </tbody>
+            </table>
+        </section>
+        <!-- Modal para adicionar/editar música -->
+        <div id="songModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitleSong">Adicionar Música</h2>
+                <form id="songForm">
+                    <label for="title">Título:</label>
+                    <input type="text" id="titleSong" name="title" required>
+                    <label for="artist">Artista:</label>
+                    <input type="text" id="artist" name="artist" required>
+                    <label for="album">Álbum:</label>
+                    <input type="text" id="album" name="album" required>
+                    <button type="submit" id="saveSongBtn">Salvar</button>
+                </form>
+            </div>
         </div>
-    </div>
-    <script src="js/song.js"></script>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+    <script src="javascript/song.js"></script>
 </body>
 </html>

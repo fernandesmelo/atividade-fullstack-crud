@@ -7,44 +7,55 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="movies.html">Filmes</a>
-        <a href="songs.html">Músicas</a>
-    </nav>
-    <h1>Filmes Cadastrados</h1>
-    <button id="addMovieBtn">Adicionar Filme</button>
-    <table id="moviesTable">
-        <thead>
-            <tr>
-                <th>Título</th>
-                <th>Gênero</th>
-                <th>Diretor</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Os filmes serão listados aqui via JS -->
-        </tbody>
-    </table>
-    <!-- Modal para adicionar/editar filme -->
-    <div id="movieModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2 id="modalTitle">Adicionar Filme</h2>
-            <form id="movieForm">
-                <label for="title">Título:</label>
-                <input type="text" id="title" name="title" required>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="movies.html">Filmes</a></li>
+                <li><a href="songs.html">Músicas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Filmes Cadastrados</h1>
+            <button id="addMovieBtn">Adicionar Filme</button>
+            <table id="moviesTable">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Gênero</th>
+                        <th>Diretor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Os filmes serão listados aqui via JS -->
+                </tbody>
+            </table>
+        </section>
+        <!-- Modal para adicionar/editar filme -->
+        <div id="movieModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Adicionar Filme</h2>
+                <form id="movieForm">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title" name="title" required>
 
-                <label for="genre">Gênero:</label>
-                <input type="text" id="genre" name="genre" required>
+                    <label for="genre">Gênero:</label>
+                    <input type="text" id="genre" name="genre" required>
 
-                <label for="director">Diretor:</label>
-                <input type="text" id="director" name="director" required>
+                    <label for="director">Diretor:</label>
+                    <input type="text" id="director" name="director" required>
 
-                <button type="submit" id="saveMovieBtn">Salvar</button>
-            </form>
+                    <button type="submit" id="saveMovieBtn">Salvar</button>
+                </form>
+            </div>
         </div>
-    </div>
-    <script src="js/movie.js"></script>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+    <script src="javascript/movie.js"></script>
 </body>
 </html>
