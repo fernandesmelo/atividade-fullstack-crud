@@ -49,11 +49,12 @@ O objetivo do projeto é fornecer uma aplicação simples e funcional para geren
 
 ## 👨🏽‍💻 Versão das Tecnologias
 
+* HTML5
+* CSS3
 * JavaScript ECMAScript 6 (ES6)
 * Node.js 22.12.0
 * Express.js 4.21.2
-* HTML5
-* CSS3
+* Mongoose 7.8.0
 
 ## ✒️ Autor
 
