@@ -91,16 +91,16 @@ cd api-fatos-historicos/backend
 npm install
 
 # 3. Rode o projeto
-node server.js
+node app.js
 ```
 
 #### Front-End
 ```bash
 # 1. Abra o projeto no VS Code
-cd api-fatos-historicos.
+cd frontend.
 
 # 2. Abra o arquivo HTML principal
-É o index.html.
+É o movie.html ou song.html.
 
 # 3. Clique com o botão direito no index.html
 E selecione "Open with Live Server".
