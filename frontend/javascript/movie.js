@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('genre').value = movie.genre;
         document.getElementById('director').value = movie.director;
 
-        movieModal.style.display = 'block';
+        movieModal.style.display = 'none';
     };
 
     // Abrir modal para adicionar novo filme
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         editMovieId = null;
         modalTitle.innerText = 'Adicionar Filme';
         movieForm.reset();
-        movieModal.style.display = 'block';
+        movieModal.style.display = 'flex';
     };
 
     // Fechar modal ao clicar no "x"

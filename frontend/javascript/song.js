@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('artist').value = song.artist;
         document.getElementById('album').value = song.album;
 
-        songModal.style.display = 'block';
+        songModal.style.display = 'none';
     };
 
     // Abrir modal para adicionar nova música
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         editSongId = null;
         modalTitleSong.innerText = 'Adicionar Música';
         songForm.reset();
-        songModal.style.display = 'block';
+        songModal.style.display = 'flex';
     };
 
     // Fechar modal ao clicar no "x"
