@@ -80,7 +80,7 @@ Siga os passos abaixo para clonar o repositório e iniciar a aplicação localme
 #### Antes de tudo:
 ```bash
 # Clone o repositório
-git clone https://github.com/fernandesmelo/api-fatos-historicos.git
+git clone https://github.com/fernandesmelo/atividade-fullstack-crud.git
 ```
 #### Back-End
 ```bash
