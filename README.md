@@ -35,6 +35,7 @@ O backend é uma API REST desenvolvida em Node.js com Express e MongoDB. Ele for
 ## Objetivo
 O objetivo do projeto é fornecer uma aplicação simples e funcional para gerenciar filmes e músicas, com uma interface amigável e um backend robusto para manipulação de dados. Ele pode ser usado como base para projetos maiores ou como exemplo de aprendizado para desenvolvimento de sistemas CRUD.
 
+[screen-capture (1).webm](https://github.com/user-attachments/assets/8ac9603d-e5d4-4561-92a6-80c1bb9f0854)
 
 ## 🛠️ Construído com
 
