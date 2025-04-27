@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 // Conectando ao MongoDB
-mongoose.connect('mongodb://localhost:27017/mydatabasenew', {
+mongoose.connect('mongodb+srv://laerciofernandesmelonetoo:ELRgwG95H0brJXQK@moviemusicmanagerdb.tr6cfhb.mongodb.net/?retryWrites=true&w=majority&appName=moviemusicmanagerdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
