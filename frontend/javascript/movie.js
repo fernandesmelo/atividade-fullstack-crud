@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('genre').value = movie.genre;
         document.getElementById('director').value = movie.director;
 
-        movieModal.style.display = 'none';
+        movieModal.style.display = 'flex';
     };
 
     // Abrir modal para adicionar novo filme

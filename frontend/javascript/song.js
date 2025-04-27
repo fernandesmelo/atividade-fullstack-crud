@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('artist').value = song.artist;
         document.getElementById('album').value = song.album;
 
-        songModal.style.display = 'none';
+        songModal.style.display = 'flex';
     };
 
     // Abrir modal para adicionar nova música
